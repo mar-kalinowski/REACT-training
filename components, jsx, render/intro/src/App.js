@@ -1,13 +1,18 @@
 import { firstComponent } from "./components/FirstComponent";
 import { Avatar } from "./components/Avatar";
 import Misc from "./components/Misc";
+import { Howdy } from "./components/Howdy";
+import { ImageWrapper } from "./components/ImageWrapper";
 
 const App = () => {
   return (
     <>
-    <firstComponent />
-    <Avatar />
-    <Misc />
+    <ImageWrapper src="http://placekitten.com/200/300"/>
+    {/* <Howdy name="Sebastian" />
+    <Howdy name={null} />
+    <Howdy name={undefined} />
+    <Howdy name={false} /> */}
+    {/* <Avatar /> */}
     </>
   )
 }
