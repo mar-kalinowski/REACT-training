@@ -5,6 +5,7 @@ const App = () => {
   const anotherElement = <p>Motyla noga, to działa!</p>;
   const noJsx = "Tekst jakiś:";
   const expression = (Math.random() + 10).toFixed(2);
+  const FirstComponent = () => null;
   
   return (
     <div className="App">
@@ -15,6 +16,7 @@ const App = () => {
         <p>{noJsx}</p>
         {userInput ? <p>{userInput}</p> : <p>Nie podano wartości</p>}
         <p>{expression}</p>
+        <FirstComponent />
       </div>
     </div>
   );
