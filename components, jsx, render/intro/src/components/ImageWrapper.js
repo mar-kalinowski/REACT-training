@@ -1,5 +1,5 @@
-export const ImageWrapper = () => (
+export const ImageWrapper = (props) => (
     <figure>
-        <img alt="cat" src={props.src}/>
+        <img alt="a nice cat" src={props.src}/>
     </figure>
 )

@@ -19,4 +19,3 @@ export const Misc = () => {
     );
   };
   
-  export default Misc;
