@@ -1,12 +1,23 @@
 import { firstComponent } from "./components/FirstComponent";
 import { Avatar } from "./components/Avatar";
-import {Misc} from "./components/Misc";
+import { Misc } from "./components/Misc";
 import { Howdy } from "./components/Howdy";
 import { ImageWrapper } from "./components/ImageWrapper";
+import { FancyBorder } from "./components/FancyBorder";
 
 const App = () => {
   return (
     <>
+      <FancyBorder borderStyle = "2px dashed red"
+                    display = "flex">
+          <Avatar
+            name="Marcin"
+            icon="⚡"
+            src="https://avatars.githubusercontent.com/u/94236630?v=4"
+            age="42"
+          />
+          <p>Hej</p>
+      </FancyBorder>
       {/* <ImageWrapper src="http://placekitten.com/200/300" /> */}
       {/* <Howdy name="Sebastian" />
       <h2>Witaj!</h2>
@@ -15,8 +26,8 @@ const App = () => {
       {/* <Howdy name={null} />
       <Howdy name={undefined} />
       <Howdy name={false} /> */}
-      <Avatar name = "Marcin" icon = "⚡" src="https://avatars.githubusercontent.com/u/94236630?v=4" age = "42"/>
-      <Avatar name = "Jan" icon = ":-)" src="https://avatars.githubusercontent.com/u/94236630?v=4" age = "42"/>
+      {/* <Avatar name = "Marcin" icon = "⚡" src="https://avatars.githubusercontent.com/u/94236630?v=4" age = "42"/>
+      <Avatar name = "Jan" icon = ":-)" src="https://avatars.githubusercontent.com/u/94236630?v=4" age = "42"/> */}
     </>
   );
 };
