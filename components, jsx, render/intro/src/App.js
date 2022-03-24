@@ -6,10 +6,14 @@ import { ImageWrapper } from "./components/ImageWrapper";
 import { FancyBorder } from "./components/FancyBorder";
 import { data } from "./data";
 import { User } from "./components/User";
+import { Users } from "./components/Users";
+// import styled from 'styled-components'
 
 const App = () => {
+  
   return (
-    <User />
+    <Users />
+    // <User />
     // <>
     //   {/* <FancyBorder borderStyle = "2px dashed red"
     //                 display = "flex">
