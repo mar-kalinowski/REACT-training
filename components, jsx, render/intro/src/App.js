@@ -12,7 +12,9 @@ import { Users } from "./components/Users";
 const App = () => {
   
   return (
+    <div style={{width: '1440px', margin: '0 auto', display: 'flex', flexWrap: 'wrap', justifyContent: 'center'}}>
     <Users />
+    </div>
     // <User />
     // <>
     //   {/* <FancyBorder borderStyle = "2px dashed red"
