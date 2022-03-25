@@ -54,7 +54,7 @@ export const Users = () => {
             <a href={`mailto: ${user.email}`}>{user.email}</a>
         </div>
     ))
-}
+} 
 
 
 
